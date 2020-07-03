@@ -1,44 +1,43 @@
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 body {
   font-family: Montserrat;
+  text-align: center;
 }
 
-.container-fluid {
-  padding: 3% 15% 8%;
-}
-
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat;
-
 }
-.big-heading{
+
+p {
+  color: #8f8f8f;
+  size: 5.25rem;
+  font-weight: 500;
+}
+
+.big-heading {
   font-family: 'Montserrat Black', sans-serif;
-  /* font-family: 'Ubuntu', sans-serif;  */
   size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
-h2 {
+.section-heading {
   font-weight: 900;
   font-size: 2.5rem;
   line-height: 1.5;
 }
-
-h3 {
-  font-weight: 700;
-  font-size: 1.5rem;
+/* CONTAINERS */
+.container-fluid {
+  padding: 7% 15%;
 }
 
-p {
-  color: #8f8f8f;
-  /* width: 70%; */
-  size: 5.25rem;
-  font-weight: 500;
+/* SECTIONS */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -66,6 +65,13 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+
+#title .container-fluid{
+  padding: 3% 15% 8%;
+  text-align: left;
+
+}
+
 /* Title image */
 .title-image {
   width: 60%;
@@ -77,10 +83,13 @@ p {
 
 /********************************************SECTION FEATURES********************************************************/
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   /* z-index: 1; */
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .icon {
@@ -97,15 +106,12 @@ p {
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
 /*********************************************TESTIMONIALS SECTION*******************************************************/
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-image {
@@ -114,15 +120,16 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 /*****************************************************PRESS**************************************************************/
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press-logo {
@@ -133,37 +140,31 @@ p {
 /****************************************************PRICING******************************************************************/
 #pricing {
   padding: 100px 150px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 .pricing-column {
   padding: 3% 2%;
-  text-align: center;
 }
 
 /****************************************************Call to Action**************************************************************/
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  color: #fff;
-  padding: 7% 15%;
-}
+
 
 .cta-heading {
-  width: 70%;
-  margin: auto;
-  line-height: 1.5;
   font-family: 'Montserrat Black', sans-serif;
   font-size: 2rem;
+  line-height: 1.5;
+  width: 70%;
+  margin: auto;
   font-weight: 900;
 }
 
 /*************************************************** footer *****************************************************************/
-#footer {
-  background-color: #fff;
-  text-align: center;
-  padding: 7% 15%;
-}
 
 .socials-icon {
   margin: 20px 10px;
